@@ -2,15 +2,15 @@
 
 This directory contains the Python implementation of the CAN-Based Digital Twin for EV Battery Monitoring and Fault Detection.
 
-## CAN Communication Modules
+## Implemented Modules
 
 - `can_simulator.py` — CAN message encoding and virtual transmission using python-can and cantools
 - `can_decoder.py` — DBC-based CAN signal decoding
+- `database.py` — SQLite time-series storage for simulated battery voltage, current, SOC, SOH, and temperature measurements
 
 ## Planned Modules
 
 - `battery_model.py` — Battery state tracking and SOC/SOH monitoring
-- `database.py` — SQLite battery time-series storage
 - `fault_detection.py` — Rule-based battery fault detection
 - `dashboard.py` — Streamlit/Plotly battery monitoring dashboard
 - `main.py` — Main application entry point
@@ -19,4 +19,6 @@ This directory contains the Python implementation of the CAN-Based Digital Twin 
 
 The project is developed incrementally, with each module implemented, tested, and documented before integration.
 
-All battery measurements originate from a simplified MATLAB/Simulink model and are intended for simulation-based development and testing.
+The current workflow uses simulated MATLAB/Simulink battery measurements, DBC-based CAN communication, and Python-based data processing.
+
+All battery measurements originate from a simplified simulation model. The project is intended for educational development and portfolio demonstration, not production automotive deployment.
