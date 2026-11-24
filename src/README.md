@@ -9,7 +9,8 @@ This directory contains the Python implementation of the CAN-Based Digital Twin 
 - `database.py` — SQLite time-series storage for simulated battery voltage, current, SOC, SOH, and temperature measurements
 - `battery_model.py` — Battery state tracking and SOC/SOH monitoring
 - `fault_detection.py` — Rule-based battery fault detection
-- 
+  - `pipeline.py` — End-to-end virtual CAN transmission,
+  DBC decoding, and SQLite storage of battery measurements
 ## Planned Modules
 
 - `dashboard.py` — Streamlit/Plotly battery monitoring dashboard
