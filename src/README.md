@@ -11,8 +11,6 @@ This directory contains the Python implementation of the CAN-Based Digital Twin 
 - `fault_detection.py` — Rule-based battery fault detection
 - `pipeline.py` — End-to-end virtual CAN transmission,
   DBC decoding, and SQLite storage of battery measurements
-## Planned Modules
-
 - `dashboard.py` — Streamlit/Plotly battery monitoring dashboard
 - `main.py` — Main application entry point
 
