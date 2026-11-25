@@ -13,7 +13,8 @@ This directory contains the Python implementation of the CAN-Based Digital Twin 
   DBC decoding, and SQLite storage of battery measurements
 - `dashboard.py` — Streamlit/Plotly battery monitoring dashboard
 - `main.py` — Main application entry point
-
+- `soc_estimator.py` — Coulomb Counting-based SOC
+  estimation using decoded CAN current measurements
 ## Development Approach
 
 The project is developed incrementally, with each module implemented, tested, and documented before integration.
