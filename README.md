@@ -98,7 +98,7 @@ The model generates 601 simulated measurements stored in `data/battery_simulatio
 - [x] DBC-based CAN message encoding and decoding
 - [x] SQLite battery time-series storage
 - [x] Rule-based battery fault detection
-- [ ] Digital Twin monitoring dashboard
+- [X] Digital Twin monitoring dashboard
 - [ ] Automated testing and technical report
 - [ ] Optional CANoe and hardware integration
 
