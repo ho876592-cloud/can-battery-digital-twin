@@ -120,4 +120,18 @@ can-battery-digital-twin/
 
 ## 9. Engineering Disclaimer
 
-All battery data is simulated using simplified mathematical assumptions. The model is intended for educational development and demonstration and has not been validated for real-world automotive or safety-critical applications.
+All battery data is simulated using simplified mathematical assumptions. The model is intended for educational development and demonstration and has not been validated for real-world automotive or safety-critical applications.## Battery Monitoring Dashboard
+
+The interactive Streamlit and Plotly dashboard visualizes simulated EV battery measurements, CAN communication statistics, and rule-based battery diagnostics.
+
+### Dashboard Overview
+
+![Dashboard Overview](images/dashboard_overview.png)
+
+### Battery Signal Monitoring
+
+![Battery Signal Monitoring](images/dashboard_signal_monitoring.png)
+
+### Communication and Fault Diagnostics
+
+![Battery Diagnostics](images/dashboard_diagnostics.png)
