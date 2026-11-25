@@ -125,12 +125,12 @@ The interactive Streamlit and Plotly dashboard visualizes simulated EV battery m
 
 ### Dashboard Overview
 
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](images/dashboard_overview.PNG)
 
 ### Battery Signal Monitoring
 
-![Battery Signal Monitoring](images/dashboard_signal_monitoring.png)
+![Battery Signal Monitoring](images/Battery_signal_monitoring.PNG)
 
 ### Communication and Fault Diagnostics
 
-![Battery Diagnostics](images/dashboard_diagnostics.png)
+![Battery Diagnostics](images/dashboard_diagnostics.PNG)
