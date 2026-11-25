@@ -106,15 +106,38 @@ The model generates 601 simulated measurements stored in `data/battery_simulatio
 
 ```text
 can-battery-digital-twin/
-├── simulink/
-│   ├── ev_battery_soc.slx
-│   └── README.md
+│
 ├── data/
-│   ├── battery_simulation.csv
-│   └── README.md
+│   ├── README.md
+│   └── battery_simulation.csv
+│
+├── dbc/
+│   ├── README.md
+│   └── battery_can.dbc
+│
 ├── images/
+│   ├── README.md
 │   ├── Simulink_battery_model.PNG
-│   └── README.md
+│   ├── dashboard_overview.png
+│   ├── dashboard_signal_monitoring.png
+│   └── dashboard_diagnostics.png
+│
+├── simulink/
+│   ├── README.md
+│   └── ev_battery_soc.slx
+│
+├── src/
+│   ├── README.md
+│   ├── can_simulator.py
+│   ├── can_decoder.py
+│   ├── battery_model.py
+│   ├── database.py
+│   ├── fault_detection.py
+│   ├── pipeline.py
+│   ├── soc_estimator.py
+│   ├── dashboard.py
+│   └── main.py
+│
 └── README.md
 ```
 
